@@ -9,7 +9,7 @@ prepare_venv: &prepare_venv
   run:
     name: Create venv
     command: |
-      python3 -m venv venv
+      python3 -m venv env
       source venv/bin/activate
       pip install --upgrade pip
 
